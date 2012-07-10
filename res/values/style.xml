@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="CustomWindowTitleBackground">
+		<item name="android:background">@drawable/title_bar</item>
+	</style>
+	
+	<style name="title_style" parent="android:Theme">
+		<item name="android:windowTitleSize">40dip</item>
+		<item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+	</style>
+	
+	<style name="myCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+     	<item name="@android:button">@drawable/switch_selector</item>
+    </style>
+    
+    <style name="about_txt_font">
+        <item name="android:textSize">@dimen/BasicTextSize</item>
+        <item name="android:textColor">#ff707070</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">#a0ffffff</item>
+        <item name="android:shadowDx">1.2</item>
+        <item name="android:shadowDy">1.2</item>
+        <item name="android:shadowRadius">1.0</item>
+        <item name="android:lineSpacingExtra">2.0dip</item>
+    </style>
+    
+</resources>

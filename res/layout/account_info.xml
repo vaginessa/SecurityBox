@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:background="@drawable/bg">
+<LinearLayout 
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:orientation="vertical"
+  	android:layout_marginTop="40dip"
+  	android:layout_marginLeft="20dip"
+  	android:layout_marginRight="20dip">
+  	<RelativeLayout 
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+	    <EditText android:id="@+id/name"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:editable="true"
+	    	android:focusable="true"
+	    	android:singleLine="true"
+	    	android:hint="名称"
+	    	android:paddingLeft="40dip"
+	    	android:background="@drawable/login_edt_selector"/>
+	    <ImageView android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:src="@drawable/ic_guard_help"
+	    	android:layout_alignLeft="@id/name"
+	    	android:layout_centerVertical="true"
+	    	android:paddingLeft="15dip"/>
+    </RelativeLayout>
+    <RelativeLayout 
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+	    <EditText android:id="@+id/account"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:editable="true"
+	    	android:focusable="true"
+	    	android:singleLine="true"
+	    	android:hint="帐号"
+	    	android:paddingLeft="40dip"
+	    	android:background="@drawable/login_edt_selector"/>
+	    <ImageView android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:src="@drawable/ic_sms_key"
+	    	android:layout_alignLeft="@id/account"
+	    	android:layout_centerVertical="true"
+	    	android:paddingLeft="15dip"/>
+    </RelativeLayout>
+    <RelativeLayout 
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+	    <EditText android:id="@+id/password"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:editable="true"
+	    	android:focusable="true"
+	    	android:singleLine="true"
+	    	android:hint="密码"
+	    	android:paddingLeft="40dip"
+	    	android:background="@drawable/login_edt_selector"/>
+	    <ImageView android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content" 
+	    	android:src="@drawable/ic_sms_key"
+	    	android:layout_alignLeft="@id/password"
+	    	android:layout_centerVertical="true"
+	    	android:paddingLeft="15dip"/>
+    </RelativeLayout>
+    <Button 
+    	android:id="@+id/saveAccountBtn"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="保存"
+    	android:textColor="@color/white"
+    	android:textSize="18sp"
+    	android:background="@drawable/login_btn_selector"
+    	android:layout_marginTop="20dip"/>
+  </LinearLayout>
+</LinearLayout>

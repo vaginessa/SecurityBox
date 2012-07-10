@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:background="@drawable/bg">
+<LinearLayout 
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:orientation="vertical"
+  	android:layout_marginTop="40dip"
+  	android:layout_marginLeft="20dip"
+  	android:layout_marginRight="20dip">
+  	<RelativeLayout 
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+	    <EditText android:id="@+id/old_pw"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:editable="true"
+	    	android:focusable="true"
+	    	android:singleLine="true"
+	    	android:hint="请输入旧密码"
+	    	android:paddingLeft="40dip"
+	    	android:background="@drawable/login_edt_selector"/>
+	    <ImageView android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:src="@drawable/ic_guard_help"
+	    	android:layout_alignLeft="@id/old_pw"
+	    	android:layout_centerVertical="true"
+	    	android:paddingLeft="15dip"/>
+    </RelativeLayout>
+    <RelativeLayout 
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+	    <EditText android:id="@+id/new_pw1"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:editable="true"
+	    	android:focusable="true"
+	    	android:singleLine="true"
+	    	android:hint="请输入新密码"
+	    	android:paddingLeft="40dip"
+	    	android:background="@drawable/login_edt_selector"/>
+	    <ImageView android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:src="@drawable/ic_sms_key"
+	    	android:layout_alignLeft="@id/new_pw1"
+	    	android:layout_centerVertical="true"
+	    	android:paddingLeft="15dip"/>
+    </RelativeLayout>
+    <RelativeLayout 
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+	    <EditText android:id="@+id/new_pw2"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:editable="true"
+	    	android:focusable="true"
+	    	android:singleLine="true"
+	    	android:hint="请再输入新密码"
+	    	android:paddingLeft="40dip"
+	    	android:background="@drawable/login_edt_selector"/>
+	    <ImageView android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content" 
+	    	android:src="@drawable/ic_sms_key"
+	    	android:layout_alignLeft="@id/new_pw2"
+	    	android:layout_centerVertical="true"
+	    	android:paddingLeft="15dip"/>
+    </RelativeLayout>
+    <Button 
+    	android:id="@+id/pw_save_btn"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="保存"
+    	android:background="@drawable/login_btn_selector"
+    	android:layout_marginTop="20dip"/>
+  </LinearLayout>
+</LinearLayout>

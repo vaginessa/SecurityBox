@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, passwordmain!</string>
+    <string name="app_name">安全盒子</string>
+    <string name="aboutMsg">\t帮助用户有效管理个人信息与手机安全。凡涉及的个人数据均加密存储。\n\n
+    						\t主要功能：账号/记事管理，文件/短信加密，手机防盗。您可以使用 密码或手势两种方式登录该软件。\n\n
+    						\t此外，为保证您个人信息的安全，建议不定期地修改登录密码，以防登陆密码被盗。\n\n
+    						\t版本：Version 1.02\n\t开发者：YaoDroid\n\t职业：大二学生\n\tQQ：1060642606\n\tE-mail：yao2app@gmail.com\n\n
+     						\t在使用过程中，若有问题和意见，可以联系~~~
+    						</string>
+    <string name="first_guide_body">\t首次使用，为保证该软件的密保性能。建议您先设置密钥。该密钥将用于加密你在该软件中存放的个人信息！" 
+							\n\t密钥可由6-10位数字或字母构成。你可以采用以下两种方式进行设置:\n\t*系统默认\n\t*用户自定义（推荐）
+							\n\t按返回，系统将使用默认密钥。谢谢您的配合！\n\n</string>
+    <string name="sim_guide_msg">\t如果手机防盗服务开启，当手机被盗时：\n
+    						\tA、若偷盗者为换SIM卡，则你可以发送“关键字”短信，到预设的“收信人”。可以获知当前手机的地理位置GPS。\n
+    						\tB、若偷盗者更换SIM卡，则在手机重启后，将检测发现，并向预设“收信人”发送短信，可以获知当前偷盗者的手机号，然后即可进一步发关键字获取其地理位置，或者直接呼叫偷盗者。</string>
+    
+    <string name="init_password">初始密码为 111111 </string>
+    <string name="checking_pw">正在验证密码...</string>
+    <string name="pass_error">密码错误！</string>
+    <string name="gesture_error">手势不匹配</string>
+        
+    <string name="first_guide_title">温馨提示</string>
+    <string name="default_key">默认密钥</string>
+    <string name="default_key_in_use">默认密钥现在启用！</string>
+    <string name="default_key_char">19900911</string>
+    <string name="self_key">自定义</string>
+    <string name="self_key_input">请输入自定义密钥</string>
+    <string name="self_key_in_use">自定义密钥现在启用！</string>
+    
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    
+    <string name="about">关于</string>
+    
+    <string name="accountCenter">帐户中心</string>
+    <string name="accountEdit">编辑帐号</string>
+    <string name="noteInfo">隐私记事</string>
+    <string name="noteEdit">编辑记事</string>
+    <string name="fileSafe">文件安全</string>
+    <string name="msgDecryptInbox">短信加密</string>
+    <string name="msgDecryptDb">已加密</string>
+    <string name="sim">手机防盗</string>
+    <string name="pwReset">修改密码</string>
+    
+    <string name="account_group_new">新建组别</string>
+    <string name="account_group_import">导入</string>
+    <string name="account_group_export">导出改组</string>
+    <string name="account_group_modify">修改组名</string>
+    <string name="account_group_delete">删除该组</string>
+    <string name="account_group_operation">帐号组别操作</string>
+    <string name="account_group_mention">您还未添加任何组别，按Menu选择“新建”或“导入”</string>
+    <string name="account_operation">帐号操作</string>
+    <string name="account_delete">删除帐号</string>
+    <string name="account_modify">修改帐号</string>
+    <string name="account_new">新增帐号</string>
+    <string name="account_mention">您还未添加任何帐号，请按Menu选择“新增”</string>
+    <string name="account_name">名称</string>
+    <string name="account_account">帐号</string>
+    <string name="account_password">密码</string>
+    <string name="account_read">查看帐户信息</string>
+	<string name="account_add">新增帐户</string>
+	<string name="account_import_msg">请选择.zip格式文件导入手机</string>
+	<string name="account_no_sdcard">未检测到sd存储卡！</string>
+	<string name="account_no_import_file">未选择导入文件！</string>
+	<string name="mention">提示</string>
+	<string name="attention">注意</string>
+	<string name="account_import_msg2">将该数据导入手机？</string>
+	<string name="account_import_ok">导入成功！</string>
+	<string name="account_import_error">文件类型不正确！请确认文件是“.zip”压缩文件</string>
+	<string name="account_export_ok">帐号数据已成功导出！</string>
+	<string name="account_export_msg">该帐号将导出到文件夹“\\sdcard\\Security\\Export”</string>
+	<string name="account_export_error">抱歉，导出过程发生错误~</string>
+	<string name="account_group_delete_msg">确定删除该组</string>
+	<string name="account_input_info">请填写帐号名称！</string>
+	
+    <string name="note_mention">您还未添加任何记事，请按Menu选择“新增”</string>
+    <string name="note_operation">记事操作</string>
+    <string name="note_new">新增记事</string>
+    <string name="note_modify">修改记事</string>
+    <string name="note_delete">删除记事</string>
+    <string name="note_input_title">请填写标题！</string>
+    <string name="note_delete_msg">是否删除该记事？</string>
+    
+    <string name="add_ok">新增成功</string>
+    <string name="modify_ok">修改成功</string>
+    <string name="delete_ok">删除成功</string>
+    
+    <string name="modify">修改</string>
+    <string name="save">保存</string>
+    <string name="delete">删除</string>
+    <string name="clear">清除</string>
+    
+    <string name="file_exsisted">文件名已经存在，是否覆盖？</string>
+    <string name="file_encrypt_ok">文件加密成功!</string>
+    <string name="file_encrypting">正在对文件加密...</string>
+    <string name="file_decrypting">正在对文件解密...</string>
+    <string name="file_delete_msg">确定删除文件？</string>
+    <string name="file_decrypt_ok">文件解密成功!</string>
+    <string name="file_operation">文件操作</string>
+    
+    
+    <string name="sms_send">发送加密短信</string>
+    <string name="sms_delete_msg">是否删除该信息？</string>
+    <string name="sms_from">来自</string>
+    <string name="sms_encrypt_ok">短信加密成功，存入数据库</string>
+    <string name="sms_send_des">DES加密并发送</string>
+    <string name="sms_send_xor">Xor加密并发送</string>
+    <string name="sms_send_ok">加密短信发送成功！</string>
+    <string name="sms_send_wrong">电话号码格式错误，短信内容超过70字，请检查!</string>
+    <string name="sms_send_num_wrong">电话号码格式错误!</string>
+    <string name="sms_send_body_wrong">短信内容超过70字，请删除部分内容!</string>
+    
+    <string name="sim_service">手机防盗服务</string>	
+    <string name="sim_security">手机防盗追踪服务</string>	
+    <string name="sim_your_name">你的姓名</string>
+    <string name="sim_receiver_name">收信人姓名</string>
+    <string name="sim_receiver_phone">收信人电话</string>
+    <string name="sim_sms_key">短信关键字</string>
+    <string name="sim_input_msg">请填写下面信息</string>
+    <string name="sim_service_on">手机防盗服务-开启！</string>
+    <string name="sim_service_off">手机防盗服务-关闭！</string>
+    <string name="sim_gps_fail">抱歉，无法获取手机当前的地理位置！</string>
+    <string name="sim_latitude">维度: </string>
+    <string name="sim_longtitude">经度：</string>
+    <string name="sim_lacate">当前位置：</string>
+    <string name="sim_sms_msg1">这是来自</string>
+    <string name="sim_sms_msg2">手机的防盗短信。Ta的手机已可能被盗，这是盗窃者现在使用手机号。</string>
+    <string name="sim_sms_msg3">请尽快通知</string>
+    <string name="sim_sms_msg4">。发送关键词，可以获取手机当前位置。</string>
+    
+    <string name="pw_old">请输入就密码:</string>
+    <string name="pw_new">请输入新密码:</string>
+    <string name="pw_new_again">请再输入一次新密码:</string>
+    <string name="pw_input_msg">请将信息填写完全！</string>
+    <string name="pw_old_wrong">旧密码输入错误！</string>
+    <string name="pw_old_new_error">两次新密码输入不一致！</string>
+    <string name="pw_new_short_error">新密码太短，安全级别低，请重设！</string>
+    <string name="pw_reset_ok">修改成功,新密码为 </string>
+   
+	<string name="delete_or_not">确定删除这条帐号信息 ？</string>
+	<string name="menu_style">菜单风格</string>
+	<string name="bg_color">背景颜色</string>
+	<string name="file_key">密匙来源</string>
+	<string name="sms_way">加密方式</string>
+	<string name="OK">确\t定</string>
+	<string name="CANCEL">取\t消</string>
+	
+	<string name="guard_receiver_about">手机被盗时，将会向该手机发送相关短信</string>
+	<string name="guard_sms_key_about">手机被盗时发送此关键字短信，可以获取手机当前位置</string>
+	<string name="guard_email_about">手机收到关键字短信后，会将帐号/记事打包信息发到该邮箱</string>
+	    
+	<string name="gesture_about">你可以创建手势，用以登陆软件</string>
+	<string name="gesture_instruction">~在这里画出你的手势吧~</string>
+	
+	<string name="exit_msg">确定退出“密保盒子”吗?</string>
+	
+</resources>

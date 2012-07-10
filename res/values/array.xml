@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<string-array name="bgColor">
+	<item>极致纯黑</item>
+	<item>青春水蓝</item>
+	<item>炫彩复古</item>
+	</string-array>
+
+	<string-array name="fileKey">
+	<item>系统默认</item>
+	<item>登录密码</item>
+	<item>自定义</item>
+	</string-array>
+	
+	<string-array name="smsWay">
+	<item>加密算法1（异或）</item>
+	<item>加密算法2（DES）</item>
+	</string-array>
+	
+	<string-array name="groupOperation">
+		<item>新建组别</item>
+		<item>修改组名</item>
+		<item>删除该组</item>
+	</string-array>
+	
+	<string-array name="accountOperation">
+		<item>新增帐号</item>
+		<item>修改帐号</item>
+		<item>删除帐号</item>
+	</string-array>
+	
+	<string-array name="noteOperation">
+		<item>新增记事</item>
+		<item>修改记事</item>
+		<item>删除记事</item>
+	</string-array>
+	
+	<string-array name="fileOperation">
+		<item>打开文件</item>
+		<item>文件更名</item>
+		<item>文件加密</item>
+		<item>文件解密</item>
+		<item>删除文件</item>
+	</string-array>
+	
+	<string-array name="smsOperation1">
+		<item>DES解密</item>
+		<item>异或解密</item>
+		<item>删除短信</item>
+	</string-array>
+	
+	<string-array name="smsOperation2">
+		<item>DES加密</item>
+		<item>异或加密</item>
+		<item>短信解密</item>
+	</string-array>
+	
+</resources>

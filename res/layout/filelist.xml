@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:background="@drawable/bg">
+	<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:background="@drawable/filepath_bg" android:gravity="center_vertical"
+		android:id="@+id/pathBar">
+		<TextView android:id="@+id/mPath" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:padding="5dp"
+			android:textSize="20sp" android:textColor="#FFFFAA"
+			android:layout_alignParentLeft="true" android:layout_centerVertical="true"></TextView>
+		<ImageView android:src="@drawable/filepath" android:layout_alignParentRight="true"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageView>
+	</RelativeLayout>
+	<ListView android:id="@android:id/list" android:divider="@drawable/devideline"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:cacheColorHint="#00000000" android:listSelector="@drawable/list_item_selector">
+	</ListView>
+</LinearLayout>

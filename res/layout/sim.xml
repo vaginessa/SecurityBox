@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/bg" android:orientation="vertical">
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center_vertical" android:layout_marginTop="20dip"
+		android:layout_marginRight="12dip" android:layout_marginLeft="12dip"
+		android:layout_marginBottom="10dip">
+		<TextView android:text="@string/sim_security"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="#FFFFFF" android:textSize="20sp"
+			android:layout_weight="1" android:id="@+id/tv"></TextView>
+		<ToggleButton android:textOn="开启" android:textOff="关闭"
+			android:id="@+id/onoff" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:gravity="center_horizontal"></ToggleButton>
+	</LinearLayout>
+
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:scrollbars="vertical"
+		android:layout_marginRight="10dip" android:layout_marginLeft="10dip">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<EditText android:id="@+id/userName" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:singleLine="true"
+				android:textColor="#0000E3" android:hint="@string/sim_your_name" />
+			<EditText android:id="@+id/toPhoneName"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:singleLine="true" android:textColor="#0000E3"
+				android:hint="@string/sim_receiver_name" />
+			<EditText android:id="@+id/toPhoneNum" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:singleLine="true"
+				android:textColor="#0000E3" android:hint="@string/sim_receiver_phone" />
+			<EditText android:id="@+id/keySms" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:singleLine="true"
+				android:textColor="#0000E3" android:hint="@string/sim_sms_key" />
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>
+

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.yao.pw"
+      android:versionCode="2"
+      android:versionName="1.1">
+    <application android:icon="@drawable/icon" android:label="@string/app_name" 
+    		android:theme="@style/title_style" 
+    		 >
+        <activity android:name=".passwordmain"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       	  
+        <activity android:name="com.yao.ui.MainMenu"></activity>    
+         
+		<activity android:name="com.yao.ui.Account_Info" android:configChanges="orientation|keyboardHidden"
+				></activity>
+		<activity android:name="com.yao.ui.AccountClass"
+				android:label="@string/accountCenter"
+				>
+				<intent-filter>
+					<action android:name="com.yao.ui.AccountClass"/>
+				</intent-filter>
+				</activity>		  
+		<activity android:name="com.yao.ui.AccountList"></activity>
+		<activity android:name="com.yao.ui.FileSafe"
+				android:label="@string/fileSafe"
+				></activity>
+		<activity android:name="com.yao.ui.FileList_forIO"
+				></activity>
+		<activity android:name="com.yao.ui.NoteList"
+				android:label="@string/noteInfo"
+				></activity>
+		<activity android:name="com.yao.ui.PasswordSetting" android:configChanges="keyboardHidden"
+				android:label="@string/pwReset"
+				></activity>
+		<activity android:name="com.yao.ui.Guard"></activity>
+		<activity android:name="com.yao.ui.GuardEdit"></activity>
+		<activity android:name="com.yao.ui.EmailBinding"></activity>
+		<activity android:name="com.yao.ui.DataBack"></activity>
+		<activity android:name="com.yao.ui.GuardHelp"></activity>
+		<activity android:name="com.yao.ui.Setting"></activity>
+		<activity android:name="com.yao.ui.GestureBuilderActivity"></activity>
+		<activity android:name="com.yao.ui.CreateGestureActivity"></activity>
+		<activity android:name="com.yao.ui.AboutApp"></activity>
+		<activity android:name="com.yao.ui.FeedBack"></activity>
+		<activity android:name="com.yao.ui.Note_Info" android:configChanges="orientation|keyboardHidden"
+				></activity>
+		<activity android:name="com.yao.ui.SmsDecrypt"
+				></activity>
+		<activity android:name="com.yao.ui.SMSInbox"
+				></activity>
+		<activity android:name="com.yao.ui.SIM" android:configChanges="keyboardHidden"
+				android:label="@string/sim"
+				></activity>
+				
+		<receiver android:name="com.yao.broadcast.HippoStartupIntentReceiver">
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED"/>
+			</intent-filter>
+		</receiver>
+		
+		<service android:name="com.yao.broadcast.MyService"
+     	 		android:label="@string/sim_service"
+      			android:icon="@drawable/icon"
+      			android:enabled="true"
+      			android:exported="true"
+      			android:process=":remote" >
+    	</service>
+
+    </application>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+	<uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+	<uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_SMS"></uses-permission>
+	<uses-permission android:name="android.permission.READ_SMS"></uses-permission>
+	<uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest> 
